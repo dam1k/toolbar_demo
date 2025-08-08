@@ -42,6 +42,13 @@ export default function RootLayout({
     >
       <body className="flex min-h-full">
         <div className="flex w-full flex-col">{children}</div>
+        <script
+          async
+          id="toolbar-script"
+          data-toolbar-api-key="57c7a9a4-7f60-43bb-bdb5-50b56568c6f4"
+          // src="http://localhost:60014/embedded-app.js"
+          src="https://get.usetool.bar/embedded-app.js"
+        ></script>
       </body>
     </html>
   )
